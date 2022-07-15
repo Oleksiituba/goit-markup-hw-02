@@ -1,13 +1,10 @@
 .body{
     font-family: 'Roboto';
+    list-style: none;
+        text-decoration: none;
 }
 
-.list {
-    list-style: none;
-}
-.link {
-    text-decoration: none;
-}
+
 
 
 /*-------------Header-----------*/
@@ -50,6 +47,8 @@ font-weight: 700;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
+        list-style: none;
+        text-decoration: none;
     
         color: #757575;
 }
@@ -90,6 +89,36 @@ font-weight: 700;
     
 }
 
+.section_peculiarity_item{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        list-style: none;
+    
+        color: #212121;
+}
+.section_peculiarity_text{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
+.section_work{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+    list-style: none;
+    text-decoration: none;
+
+}
 
 
 
