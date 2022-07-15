@@ -11,7 +11,7 @@
 
 
 /*-------------Header-----------*/
-.web_studio{
+.header_web_studio{
 font-family: 'Raleway';
     font-style: normal;
 font-weight: 700;
@@ -23,7 +23,7 @@ font-weight: 700;
     color: #000000;
  
 }
-.web {
+.header_web{
     color: #2196F3;
 }
 
@@ -89,3 +89,31 @@ font-weight: 700;
         color: #FFFFFF;
     
 }
+
+
+
+
+
+
+
+
+
+
+ /*------------Footer-----------*/
+.footer_web_studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: #000000;
+
+}
+
+.footer_web {
+    color: #2196F3;
+}
+
