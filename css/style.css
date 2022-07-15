@@ -28,7 +28,7 @@ font-weight: 700;
     
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         color: #212121;
         list-style: none;
@@ -45,7 +45,7 @@ font-weight: 700;
     
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         list-style: none;
         text-decoration: none;
@@ -55,6 +55,7 @@ font-weight: 700;
 .header_link_contact:hover,
 .header_link_contact:focus{
         color: #2196F3;
+
     }
 
         /*-------------Main-----------*/
@@ -76,16 +77,15 @@ font-weight: 700;
 }
 .section_name_btn{
         background-color: #2196F3;
-
         font-weight: 700;
         font-size: 16px;
         line-height: 30px;
-    
         display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
+        cursor: pointer;
     
 }
 .section_peculiarity_list{
@@ -95,17 +95,17 @@ font-weight: 700;
 .section_peculiarity_item{
     font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        l
+        
     
         color: #212121;
 }
 .section_peculiarity_text{
     font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
         letter-spacing: 0.03em;
     
         color: #757575;
@@ -114,7 +114,7 @@ font-weight: 700;
 .section_work{
     font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height:1.16;
         letter-spacing: 0.03em;
     
         color: #212121;
@@ -128,7 +128,7 @@ font-weight: 700;
 .section_team{
     font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.16;
 
         letter-spacing: 0.03em;
         
@@ -146,7 +146,7 @@ font-weight: 700;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.18;
         letter-spacing: 0.03em;
     
         color: #212121;
@@ -154,7 +154,7 @@ font-weight: 700;
 .section_team_text{
     font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.18;
     
         letter-spacing: 0.03em;
     
@@ -223,3 +223,6 @@ font-family: 'Roboto';
 .footer_contacts_list:focus {
     color: #2196F3;
 }
+
+
+
