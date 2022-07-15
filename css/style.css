@@ -10,7 +10,7 @@
 }
 
 
-
+/*-------------Header-----------*/
 .web_studio{
 font-family: 'Raleway';
     font-style: normal;
@@ -58,6 +58,7 @@ font-weight: 700;
         color: #2196F3;
     }
 
+        /*-------------Main-----------*/
 .section_name{
     background-color: #2F303A;
 }
