@@ -31,8 +31,7 @@ font-weight: 700;
 }
 
 .header_link{
-    font-family: 'Roboto';
-        font-style: normal;
+   
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -198,8 +197,7 @@ font-weight: 700;
 
 .footer_contacts_adress
 {
-font-family: 'Roboto';
-    font-style: normal;
+
 
     font-size: 14px;
     line-height: 24px;
@@ -232,13 +230,15 @@ font-family: 'Roboto';
 
 
  /*------------PORTFOLIO-----------*/
+.portfolio_body{
+    font-family: 'Roboto';
 
+}
 
 
 
  .port_item{
-    font-family: 'Roboto';
-        font-style: normal;
+  
         font-weight: 500;
         font-size: 16px;
         line-height:1.62;
@@ -256,8 +256,7 @@ font-family: 'Roboto';
             text-decoration: none;
         }
  .menu_project_name{
-font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -266,8 +265,7 @@ font-family: 'Roboto';
     color: #212121;
         }
  .menu_project_text{
-    font-family: 'Roboto';
-        font-style: normal;
+  
         font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
