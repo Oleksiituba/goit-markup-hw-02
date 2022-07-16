@@ -1,9 +1,15 @@
+:root{
+   --first-title-color: #212121 
+   --second-title-color: #ffffff 
+  
+}
+
 .body{
     font-family: 'Roboto';
   
 }
 
-
+  
 
 
 /*-------------Header-----------*/
@@ -92,7 +98,9 @@ font-weight: 700;
         cursor: pointer;
     
 }
-/*-------------section peculiarity-----------*/
+
+    
+
 .peculiarity_list{
     list-style: none;
 }
