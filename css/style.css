@@ -25,11 +25,13 @@ font-weight: 700;
 }
 
 .header_link{
-    
+    font-family: 'Roboto';
+        font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.14;
+        line-height: 16px;
         letter-spacing: 0.02em;
+    
         color: #212121;
         list-style: none;
         text-decoration: none;
@@ -59,13 +61,15 @@ font-weight: 700;
     }
 
         /*-------------Main-----------*/
-.section_name{  
+
+    /*-------------section name-----------*/
+.name{  
     background-color: #2F303A;
 }
 
 .main_name{
 
-        font-weight: 900;
+        
         font-size: 44px;
         line-height: 60px;
        
@@ -75,9 +79,9 @@ font-weight: 700;
     
         color: #FFFFFF;
 }
-.section_name_btn{
+.name_btn{
         background-color: #2196F3;
-        font-weight: 700;
+        
         font-size: 16px;
         line-height: 30px;
         display: flex;
@@ -88,12 +92,12 @@ font-weight: 700;
         cursor: pointer;
     
 }
-.section_peculiarity_list{
+/*-------------section peculiarity-----------*/
+.peculiarity_list{
     list-style: none;
 }
 
-.section_peculiarity_item{
-    font-weight: 700;
+.peculiarity_item{
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
@@ -102,17 +106,17 @@ font-weight: 700;
     
         color: #212121;
 }
-.section_peculiarity_text{
-    font-weight: 400;
+.peculiarity_text{
+   
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
     
         color: #757575;
 }
-
-.section_work{
-    font-weight: 700;
+/*-------------section work-----------*/
+.work{
+  
         font-size: 36px;
         line-height:1.16;
         letter-spacing: 0.03em;
@@ -125,8 +129,8 @@ font-weight: 700;
     list-style: none;
         text-decoration: none;
 }
-.section_team{
-    font-weight: 700;
+/*-------------section team-----------*/
+.team{
         font-size: 36px;
         line-height: 1.16;
 
@@ -136,23 +140,23 @@ font-weight: 700;
         color: #212121;
 
 }
-.section_team_list{
+.team_list{
     list-style: none;
         text-decoration: none;
 }
-.section_team_name{
+.team_name{
 
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 500;
+      
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
     
         color: #212121;
 }
-.section_team_text{
-    font-weight: 400;
+.team_text{
+ 
         font-size: 16px;
         line-height: 1.18;
     
@@ -160,13 +164,6 @@ font-weight: 700;
     
         color: #757575;
 }
-
-
-
-
-
-
-
 
  /*------------Footer-----------*/
 
@@ -195,7 +192,7 @@ font-weight: 700;
 {
 font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+
     font-size: 14px;
     line-height: 24px;
   letter-spacing: 0.03em;
@@ -206,7 +203,7 @@ font-family: 'Roboto';
 }
 
 .footer_contacts_list{
-    font-weight: 400;
+   
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
@@ -226,3 +223,47 @@ font-family: 'Roboto';
 
 
 
+ /*------------PORTFOLIO-----------*/
+
+
+
+
+ .port_item{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height:1.62;
+        letter-spacing: 0.03em;   
+        color: #212121;
+        list-style: none;
+            text-decoration: none;
+ }
+.port_item:hover,
+.port_item:focus {
+    color: #2196F3;}
+
+    .menu_project_list{
+        list-style: none;
+            text-decoration: none;
+        }
+ .menu_project_name{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+        }
+ .menu_project_text{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+ }
