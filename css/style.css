@@ -10,15 +10,10 @@
 }
 
 body {
-    font-family: 'Roboto'400,500,700,900,'Raleway'700;
+    font-family: 'Roboto'400,500,700,900,'Raleway'700,sans-serif;
     background-color: #ffffff;
-    color: #212121;
-    
-  
+    color: #212121; 
 }
-
-  
-
 
 /*-------------Header-----------*/
 .header-web-studio{
@@ -95,7 +90,7 @@ font-weight: 700;
         text-align: center;
         letter-spacing: 0.06em;
         color: var(--second-title-color);
-        cursor: pointer;
+        
     
 }
 
@@ -234,6 +229,7 @@ font-size: 14px;
         line-height:1.62;
         letter-spacing: 0.03em;
         color: var(--first-title-color);
+       
         
        
  }
