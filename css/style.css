@@ -220,7 +220,7 @@ font-size: 14px;
 
 
  /*------------PORTFOLIO-----------*/
-.header-list.link.current{
+.header-list.header-link.current{
     color: var(--btx-title--color)
 }
  .port_btn{
