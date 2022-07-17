@@ -220,7 +220,10 @@ font-size: 14px;
 
 
  /*------------PORTFOLIO-----------*/
-.port_btn{
+.header-list.link.current{
+    color: var(--btx-title--color)
+}
+ .port_btn{
     background-color: var(--team--section-color);
      font-family: 'Roboto';
      font-style: normal;
