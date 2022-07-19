@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Roboto'400,500,700,900,'Raleway'700,sans-serif;
+    font-family: 'Roboto',sans-serif;
     background-color: #ffffff;
     color: #212121; 
 }
@@ -27,10 +27,13 @@ font-weight: 700;
      color: var(--logo--title--color);
  
 }
+
 .header-web{
     color: var(--btx-title--color);
 }
-
+.header-list{
+list-style: none;
+}
 .header-link{
    
         font-weight: 500;
@@ -38,14 +41,20 @@ font-weight: 700;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--first-title-color);
-        list-style: none;
+        
         text-decoration: none;
 
 }
-.header-item :hover,.header-item :focus
+.header-item :hover,
+.header-item :focus
 {
    color:var(--btx-title--color);
 }
+.current{
+    color: var(--btx-title--color);
+
+}
+
 
 .header-link-contact {
    
@@ -83,8 +92,11 @@ font-weight: 700;
 }
 .name_btn{
         background-color: var(--btx-title--color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
         font-size: 16px;
-        line-height: 1.87;
+        line-height:1.88;
         display: flex;
         align-items: center;
         text-align: center;
@@ -124,8 +136,11 @@ font-weight: 700;
     
 
 }
+.work_list{
+list-style: none;
+}
 .img_work{
-    list-style: none;
+   
     text-decoration: none;
 }
 /*-------------section team-----------*/
@@ -140,13 +155,14 @@ font-weight: 700;
         color:var(--first-title-color);
 
 }
+.team_title{
+    list-style: none;
+
+}
 .team_list{
     background-color: var(--second-title-color);
-    width: 270px;
-     height: 368px;
-        left: 215px;
-        top: 1635px;
-    list-style: none;
+  
+    
     text-decoration: none;
 }
 .team_name{
@@ -186,14 +202,16 @@ font-weight: 700;
 .footer_web {
     color: var(--btx-title--color);
 }
-
+.contacts_item{
+list-style: none;
+}
 .footer_contacts_adress
 {
     font-style: normal;
 font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    list-style: none;
+   
     text-decoration: none;
     color:var(--second-title-color);
 }
@@ -203,7 +221,7 @@ font-size: 14px;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        list-style: none;
+       
         text-decoration: none;
         color: rgba(255, 255, 255, 0.6);
 }
