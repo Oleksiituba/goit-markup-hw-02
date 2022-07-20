@@ -245,7 +245,8 @@ font-size: 14px;
     color: var(--btx-title--color)
 }
 .port_btn_list{
-        font-family: 'Roboto';
+
+        font-family: inherit;
         list-style: none;
 }
  .port_btn{
