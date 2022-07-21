@@ -248,6 +248,7 @@ font-size: 14px;
 
         font-family: inherit;
         list-style: none;
+
 }
 
  .port_btn{
@@ -257,6 +258,8 @@ font-size: 14px;
         line-height:1.62;
         letter-spacing: 0.03em;
         color: var(--first-title-color);
+        border-radius: 4px;
+        
        
         
        
